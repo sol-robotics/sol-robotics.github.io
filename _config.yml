@@ -24,6 +24,19 @@ services:
     name: "Web Security"
     description: "Some description about Web Security."
 
+about:
+  heading: What We Do
+  general:
+    first:
+      name:
+      description:
+    second:
+      name:
+      description:
+    third:
+      name:
+      description:
+
 # Team names, titles and social links information
 team:
   headings:
