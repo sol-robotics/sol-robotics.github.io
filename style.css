@@ -135,8 +135,8 @@ beta{
 	margin-right: auto;
 	padding: 50px 20px;
 	padding-bottom: 5px;
-	/* font-size: clamp(15px, 2vw, 25px); */
-		font-size: 10px;
+	font-size: clamp(10px, 2vw, 20px);
+		/* font-size: 10px; */
 	text-align: justify;
 }
 
