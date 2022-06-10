@@ -136,7 +136,7 @@ beta{
 	padding: 50px 20px;
 	padding-bottom: 5px;
 	font-size: clamp(8, 2vw, 20);
-	text-align: justify;
+	text-align: center;
 }
 
 .sectiontitle {
