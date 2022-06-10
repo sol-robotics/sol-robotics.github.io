@@ -129,7 +129,8 @@ beta{
   margin-bottom: 1em;
   margin-left: 0;
   margin-right: 0;
-  color: #FFC000;
+  /* color: #FFC000; */
+  color: blue;
   background-color: black; 
   max-width: 740;
   	display: block;   
