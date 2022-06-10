@@ -127,10 +127,7 @@ beta{
 .textbox {
   margin-top: 1em;
   margin-bottom: 1em;
-  margin-left: 0;
-  margin-right: 0;
-  /* color: #FFC000; */
-  color: blue;
+  color: #FFC000;
   background-color: black; 
   max-width: 740;
   	display: block;   
@@ -138,7 +135,8 @@ beta{
 	margin-right: auto;
 	padding: 50px 20px;
 	padding-bottom: 5px;
-	font-size: clamp(10px, 2vw, 12px);
+	/* font-size: clamp(15px, 2vw, 25px); */
+		font-size: 10px;
 	text-align: justify;
 }
 
