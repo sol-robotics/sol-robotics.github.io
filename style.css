@@ -129,8 +129,8 @@ beta{
   margin-bottom: 1em;
   color: #FFC000;
   background-color: black; 
-  width: auto;
-  /* max-width: 740; */
+  height: 50px;
+  max-width: 740;
   	display: block;   
 	margin-left: auto;   
 	margin-right: auto;
