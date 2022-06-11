@@ -127,10 +127,9 @@ beta{
 .textbox {
   margin-top: 1em;
   margin-bottom: 1em;
-  /* color: #FFC000; */
-  color: red;
+  color: #FFC000;
   background-color: black; 
-  max-width: 400;
+  max-width: 700;
   	display: block;   
 	margin-left: auto;   
 	margin-right: auto;
