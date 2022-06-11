@@ -69,7 +69,7 @@ body {
     color: white;
 }
 navbar{
-  text-align:Center
+  text-align:center;
 }
 
 
@@ -119,7 +119,7 @@ navbar{
 }
 
 beta{
-  text-align:Center
+  text-align:center;
 }
 
 
@@ -127,7 +127,8 @@ beta{
 .textbox {
   margin-top: 1em;
   margin-bottom: 1em;
-  color: #FFC000;
+  /* color: #FFC000; */
+  color: red;
   background-color: black; 
   max-width: 400;
   	display: block;   
