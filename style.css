@@ -80,7 +80,7 @@ navbar{
 
 
 .joinbeta {
-    background-color: #FFC000;
+    background-color: none;
     overflow: hidden;
     height:100px;
 	width: 100%;
@@ -96,6 +96,7 @@ navbar{
 /* Style the links inside the navigation bar */
 .joinbeta a {
     color: orange;
+	background-color: black;
     text-align: center;
     padding: 10px 20px;
     text-decoration: none;
