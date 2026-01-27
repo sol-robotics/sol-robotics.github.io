@@ -200,7 +200,7 @@ code{background:var(--soft); padding:.15rem .35rem; border-radius:8px; border:1p
 .card{
   border:1px solid var(--line);
   border-radius: var(--radius);
-  background: white;
+  background: #f2f2f2;
   padding:18px;
   box-shadow: 0 10px 30px rgba(0,0,0,.04);
 }
