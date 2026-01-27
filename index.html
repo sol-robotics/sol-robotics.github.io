@@ -1,141 +1,279 @@
+<!doctype html>
 <html lang="en">
 <head>
-<!-- 	<meta charset="UTF-8">
-	<meta name="viewport" contents=width=device-width, intial-scale=1.0"> -->
-	<title>Document</title>
-	<link rel="stylesheet" href="style.css">
-
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Construction Robot Arm | Long-Reach Automation</title>
+  <meta name="description" content="A long-reach robot arm for construction tasks like large-surface finishing. Built for uptime, transportability, and ROI." />
+  <link rel="stylesheet" href="styles.css" />
 </head>
-<!-- <body style="background-color: black;  background-image: url('website_layout.png');  background-repeat: no-repeat; background-size:cover; background-position: top center; max-width: 1000px;"> -->
- <body style="background-color: black;">
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html">
+        <img class="logo-img" src="assets/logo.svg" alt="Sol Robotics logo" />
+        <!-- <span class="logo-text">Sol Robotics</span> -->
+      </a>
 
-<div id="ex">
- 
- 
+      <nav class="nav">
+        <a href="#product">Product</a>
+        <a href="#applications">Applications</a>
+        <a href="#media">Media</a>
+        <a href="#specs">Specs</a>
+        <a class="btn btn-ghost" href="contact.html">Contact</a>
+      </nav>
 
-	<!-- <div class="navbar"> -->
-		<!-- <!-- <img src="sol_logo2.png" class="logo"> --> 
+      <button class="nav-toggle" aria-label="Open menu" data-nav-toggle>
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
 
-		<!-- <ul> -->
-		<!-- <li><a href="#1">How it Works</a></li> -->
-		<!-- <li><a href="#2">Services</a></li> -->
-		<!-- <li><a href="#3">Technology</a></li> -->
-		<!-- <li><a href="#4">Join Beta</a></li> -->
-		<!-- <li><a href="#5">Our Team</a></li> -->
-		<!-- <li><a href="#6">Contact</a></li> -->
-		
-		<!-- </ul> -->
-	<!-- </div> -->
-	
-	
-	<!-- <div id="1"></div> -->
-	<img src="banner.png" style='width: 100%; border:none; max-width: 1000;   display: block;   margin-left: auto;   margin-right: auto;'/>
-	
-	    <header>
-        <navbar>
-            <div class="topnav">
-				<!-- <img src="sol_logo2.png" class="logo"> -->
-                <!-- <a class="active" href="#home">Home</a> -->
-                <a href="index.html" style="text-decoration: underline; text-underline-offset: 5px;">Home</a>
-                <a href="beta.html">Join Beta</a>
-				<a href="about.html">About Us</a>
-                <a href="contact.html">Contact</a>
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Construction Automation</p>
+          <h1 class="hero-title">
+            A long-reach robot arm<br />
+            built for real jobsites.
+          </h1>
+          <p class="hero-subtitle">
+            Fast setup, big coverage, and a platform architecture for finishing, inspection, and more.
+          </p>
+
+          <div class="hero-cta">
+            <a class="btn btn-primary" href="contact.html">Request a pilot / demo</a>
+            <a class="btn btn-ghost" href="#media">Watch video</a>
+          </div>
+
+          <div class="hero-metrics">
+            <div class="metric">
+              <div class="metric-value">7.5 m</div>
+              <div class="metric-label">Max reach</div>
             </div>
-        </navbar>
-    </header>
-	
-	<img src="home_welder.png" style='width: 100%; border:none; max-width: 1000;   display: block;   margin-left: auto;   margin-right: auto;'/>
-	
-	<p class="sectiontitle" style='background-color: black'>
-How it Works
-</p>
-		
-	<img src="how_it_works2.png" style='width: 100%; border:none; max-width: 1000;   display: block;   margin-left: auto;   margin-right: auto; auto;padding-bottom:50px'/>	
-		
-		<p class="sectiontitle">
-Services
-</p>	
-
-			<img src="services.png" style='width: 100%; border:none; max-width: 1000;   display: block;   margin-left: auto;   margin-right: auto;padding-bottom:50px'/>	
-		
-		
-			<p class="sectiontitle">
-Technology
-</p>		
-		
-					<img src="technology.png" style='width: 100%; border:none; max-width: 1000;   display: block;   margin-left: auto;   margin-right: auto; auto;padding-bottom:50px'/>	
-		
-					<img src="cv2.png" style='width: 100%; border:none; max-width: 800;   display: block;   margin-left: auto;   margin-right: auto; auto;padding-bottom:50px'/>	
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-				<p class="sectiontitle">
-Join Our Beta
-</p>			
-		
-		<p class="textbox" style="padding-top:0; max-width: 1000;">
-
-By joining our beta your company will have early access to our services. We will contact you to schedule a virtual face-to-face, during which we will discuss your operations to determine if your company can benefit from automation. The advantage of joining our beta is that you will receive unparalled high-level technical support and pricing discounts. 
-
-
-</p>	
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-        <beta>
-            <div class="joinbeta">
-				<!-- <img src="sol_logo2.png" class="logo"> -->
-                <!-- <a class="active" href="#home">Home</a> -->
-                <a href="beta.html">Join</a>
+            <div class="metric">
+              <div class="metric-value">15 kg</div>
+              <div class="metric-label">Payload (@ 3 m)</div>
             </div>
-        </beta>
-		
-		
-		
-	<img src="fade.png" style='width: 100%; border:none; max-width: 1000;   display: block;   margin-left: auto;   margin-right: auto; '/>	
-		
-								<p class="sectiontitle" style="color: #7F7F7F; background-color: black">
-Coming Soon...
-</p>	
+            <div class="metric">
+              <div class="metric-value">Mobile</div>
+              <div class="metric-label">Designed for deployment on mobile platforms</div>
+            </div>
+          </div>
+        </div>
 
-	
-	<img src="coming_soon.png" style='width: 100%; border:none; max-width: 1000;   display: block;   margin-left: auto;   margin-right: auto;'/>
-	
-    <img src="intel.png" style='width: 100%; border:none; max-width: 1000;   display: block;   margin-left: auto;   margin-right: auto;'/>
-	
-<!-- <div class="banner"> -->
-	
-<!-- </div> -->
-	
-	<!--<img src="weld_main.jpg" style='width: 100%; border:none; object-fit: cover; margin: -8;'/>font-size:160%
-	<img src="sol_logo2.png" style='position:absolute; top:0%; left:0; width:20%; border:none; object-fit: scale-down' />-->
-	
-	<!-- <img src="website_layout.png" style='width: 100%; border:none; max-width: 1200;   display: block;   margin-left: auto;   margin-right: auto;'/>
-	<p style="font-family:century-gothic; font-size: 2vw; position:relative; top:20vh; left: 50%; margin-right: -50%; transform: translate(-50%, -50%); color:red;">info@solrobotics.com</p> -->
-	
-	
-	
-	
-	
-	
+        <!-- HERO MEDIA PLACEHOLDER -->
+        <div class="hero-media">
+          <div class="media-card">
+
+            <img
+              src="assets/hero.jpg"
+              alt="Robot arm render"
+              onerror="this.closest('.media-card').classList.add('fallback')"
+            />
+            <div class="media-fallback">
+              <div class="fallback-box"></div></div>
+          </div><div class="badge">Video-first</div>
+            <div class="badge">Pilot-ready</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRODUCT -->
+    <section id="product" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Product</h2>
+          <p>
+            A construction-grade arm optimized for large-surface work with a lightweight architecture and practical field logistics.
+          </p>
+        </div>
+
+        <div class="cards-grid">
+          <div class="card">
+            <h3>Long-reach coverage</h3>
+            <p>Cover walls, ceilings, and tall facades without moving scaffolding every few minutes.</p>
+          </div>
+          <div class="card">
+            <h3>Transportable + quick setup</h3>
+            <p>Designed to move between sites and deploy fast with minimal crew time.</p>
+          </div>
+          <div class="card">
+            <h3>Platform architecture</h3>
+            <p>Start with painting/finishing; expand to sanding, spraying, inspection, and more.</p>
+          </div>
+        </div>
+
+        <div class="split">
+          <div class="split-copy">
+            <h3>Built for ROI</h3>
+            <p>
+              Reduce cycle time on large surfaces, improve consistency, and keep your team focused on higher-skill work.
+            </p>
+            <ul class="bullets">
+              <li>Remote supervision ready</li>
+              <li>Designed for repeatable paths</li>
+              <li>Service + support model friendly</li>
+            </ul>
+            <a class="btn btn-primary" href="contact.html">Talk pilots & timelines</a>
+          </div>
+
+          <div class="split-media">
+            <div class="media-card">
+              <img
+                src="assets/product.jpg"
+                alt="Robot arm in construction setting"
+                onerror="this.closest('.media-card').classList.add('fallback')"
+              />
+              <div class="media-fallback">
+                <div class="fallback-box"></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- APPLICATIONS -->
+    <section id="applications" class="section section-muted">
+      <div class="container">
+        <div class="section-head">
+          <h2>Applications</h2>
+          <p>Start with one workflow. Expand into adjacent tasks with the same platform.</p>
+        </div>
+
+        <div class="chips">
+          <span class="chip">Large-surface painting</span>
+          <span class="chip">Drywall finishing</span>
+          <span class="chip">Sanding / prep</span>
+          <span class="chip">Coatings / sealants</span>
+          <span class="chip">Ceiling drilling</span>
+          <span class="chip">Inspection + scanning</span>
+        </div>
+
+        <div class="cards-grid">
+          <div class="card">
+            <h3>Painting pilot</h3>
+            <p>Consistent coverage, reduced overspray, and scalable throughput on big surfaces.</p>
+          </div>
+          <div class="card">
+            <h3>Interior buildouts</h3>
+            <p>Walls and ceilings in warehouses, airports, commercial builds, and retrofits.</p>
+          </div>
+          <div class="card">
+            <h3>Exterior facades</h3>
+            <p>Where reach, transportability, and setup time are the bottlenecks.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MEDIA -->
+    <section id="media" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Media</h2>
+          <p>Videos, demos, and animations.</p>
+        </div>
+
+        <div class="media-grid">
+          <!-- VIDEO 1 -->
+          <div class="media-tile">
+            <div class="video-frame">
+              <!-- Replace src with your mp4 -->
+              <video controls playsinline muted preload="metadata" poster="assets/video-poster-1.jpg">
+                <source src="assets/demo-1.mp4" type="video/mp4" />
+              </video></div>
+            <div class="media-caption">
+              <h3>Motion and loading demo</h3>
+              <p>Extension, positioning, and representative end-effector loading.</p>
+            </div>
+          </div>
+
+          <!-- VIDEO 2 -->
+          <div class="media-tile">
+            <div class="video-frame">
+              <video controls playsinline muted preload="metadata" poster="assets/video-poster-2.jpg">
+                <source src="assets/demo-2.mp4" type="video/mp4" />
+              </video></div>
+            <div class="media-caption">
+              <h3>Outdoor extension demo</h3>
+              <p>Outdoor deployment demonstration in residental setting.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- IMAGE GALLERY -->
+        <div class="gallery">
+          <div class="gallery-head">
+            <h3>Gallery</h3>
+            <p>Product close-ups with optional wrist/tool orienter.</p>
+          </div>
+
+          <div class="gallery-grid">
+            <figure class="gallery-item">
+              <img src="assets/gallery-1.jpg" alt="Gallery image 1" onerror="this.classList.add('img-fallback')" />
+            </figure>
+            <figure class="gallery-item">
+              <img src="assets/gallery-2.jpg" alt="Gallery image 2" onerror="this.classList.add('img-fallback')" />
+            </figure>
+            <figure class="gallery-item">
+              <img src="assets/gallery-3.jpg" alt="Gallery image 3" onerror="this.classList.add('img-fallback')" />
+            </figure>
+            <figure class="gallery-item">
+              <img src="assets/gallery-4.jpg" alt="Gallery image 4" onerror="this.classList.add('img-fallback')" />
+            </figure>
+          </div></div>
+      </div>
+    </section>
+
+    <!-- SPECS -->
+    <section id="specs" class="section section-muted">
+      <div class="container">
+        <div class="section-head">
+          <h2>Key specs</h2>
+          <p></p>
+        </div>
+
+        <div class="specs">
+          <div class="spec-row"><span>Max reach</span><span>7.5 m</span></div>
+          <div class="spec-row"><span>Payload</span><span>15 kg</span></div>
+          <div class="spec-row"><span>Repeatability</span><span>± 0.5 mm/m</span></div>
+          <div class="spec-row"><span>Power</span><span>AC wall + 48 V DC</span></div>
+          <div class="spec-row"><span>Use cases</span><span>Painting, finishing, inspection</span></div>
+        </div>
+
+        <div class="cta-band">
+          <div>
+            <h3>Looking for a pilot site?</h3>
+            <p>We run fast, scoped pilots with clear success criteria and timeline.</p>
+          </div>
+          <a class="btn btn-primary" href="contact.html">Request a pilot / demo</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container footer-inner">
+        <div class="footer-left">
+          <div class="logo small">
+            <img class="logo-img" src="assets/logo.svg" alt="Sol Robotics logo" />
+            <span class="logo-text">Sol Robotics</span>
+          </div>
+          <p class="fineprint">© <span id="year"></span> Sol Robotics. All rights reserved.</p>
+        </div>
+        <div class="footer-right">
+          <a href="contact.html">Contact</a>
+          <a href="#product">Product</a>
+          <a href="#media">Media</a>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <script src="app.js"></script>
 </body>
 </html>
-
-
